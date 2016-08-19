@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="blog-list">
+
+
+    {% for post in site.posts %}
+        <h3>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title
+        }}</a></h3>
+    {{ post.excerpt }}
+    {% endfor %}
+</div>
