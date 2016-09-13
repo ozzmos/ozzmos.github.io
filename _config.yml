@@ -1,0 +1,5 @@
+name: ozzmos
+markdown: kramdown
+highlighter: pygments
+baseurl: /
+excerpt_separator: <!--more-->
